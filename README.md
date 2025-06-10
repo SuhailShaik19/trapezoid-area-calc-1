@@ -1,8 +1,8 @@
-# Trapezoid Area Calculator - Division Feature
+# Trapezoid Area Calculator - Division and Multiplication Features
 
 ## Description
-This branch focuses on the division part of the trapezoid area calculation.  
-It provides a simple function to divide a number by 2, representing the `(a + b) / 2` step in the trapezoid area formula.
+This project implements key arithmetic operations involved in calculating the area of a trapezoid.  
+This version includes functions for division by two and multiplication, which are essential components in calculating trapezoid area.
 
 ## Table of Contents
 - [Features](#features)
@@ -12,27 +12,25 @@ It provides a simple function to divide a number by 2, representing the `(a + b)
 - [Author](#author)
 
 ## Features
-- Divide a given number by 2.
-- Log the result of the division to the console.
+- **Divide a number by 2**  
+  Useful for averaging the bases in the trapezoid area formula.
+- **Multiply two numbers**  
+  Used to multiply the average of the bases by the height.
+- **Build up to trapezoid area calculation step-by-step using modular operations**
 
 ## Tech Stack
 - JavaScript
 
 ## Purpose
-To implement and demonstrate the division operation used in trapezoid area calculation.  
-This function forms part of the core logic used in computing the average of two values.
+To demonstrate modular arithmetic operations—division and multiplication—used in calculating the area of a trapezoid.  
+This approach breaks down the logic clearly and enables unit testing of each part.
 
 ## How to Use
 1. Clone the repository.
-2. Checkout to the `feature/divisionByTwo` branch.
-3. Open the file containing the `divideByTwo` function (e.g., `trapezoid.js`).
-4. Run the file using Node.js:
-
-   ```bash
-   node trapezoid.js
-5. Check the console for the output.
+2. Checkout to branches for specific features (`feature/divisionByTwo`, `feature/multiplication`).
+3. Run the calculator file in your environment (Node.js or browser).
+4. Use the functions individually or combined to get the trapezoid area.
 
 ## Author
-- **Name** : Shaik Suhail
-- **Contact** : suhail.shaik@everest.engineering
-
+**Name** : Shaik Suhail
+**Contact** : suhail.shaik@everest.engineering
