@@ -15,6 +15,7 @@ function area(a,b){
     const x=add(a,b);
     return divideByTwo(x);
 }
+
 function trapezoid(a,b,h){
     const y=area(a,b);
     return multiply(y,h);
