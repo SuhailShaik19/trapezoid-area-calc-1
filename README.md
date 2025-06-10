@@ -1,34 +1,34 @@
-# Addition Feature
+# Trapezoid Area Calculator - Addition & Division Features
 
-##  Description
-This branch implements the **addition** feature of a basic calculator app.  
-It takes two numeric inputs and returns their sum. This is one of the foundational arithmetic operations in the app.
+## Description
+This project calculates the area of a trapezoid using separate functions for addition and division.  
+The addition function adds two numbers (a and b), and the division function divides a given number by two.  
+Together, these functions help in computing the intermediate step `(a + b) / 2` of the trapezoid area formula.
 
-##  Table of Contents
+## Table of Contents
 - [Features](#features)
-- [Technology Stack](#technology-stack)
-- [How to Use](#how-to-use)
+- [Tech Stack](#tech-stack)
 - [Purpose](#purpose)
+- [How to Use](#how-to-use)
 - [Author](#author)
 
-##  Features
-- Adds two numbers.
-- Simple and reusable logic.
-- Console output with descriptive message.
+## Features
+- Add two numbers `a` and `b`.
+- Divide a number by 2.
+- Log the results of each operation to the console.
 
-##  Technology Stack
-- JavaScript (ES6)
-
-##  How to Use
-
-1. Clone the repository.
-2. Switch to the `feature/addition` branch.
-3. Use the function in your code.
+## Tech Stack
+- JavaScript 
 
 ## Purpose
-- This feature provides the ability to perform addition operations within the calculator app.
-- Addition is one of the most common operations used in financial calculations
+This project is to demonstrate basic arithmetic operations in code as part of the trapezoid area calculation.  
+
+## How to Use
+1. Clone the repository.
+2. Checkout to the respective branch (`feature/addition` or `feature/divisionByTwo`).
+3. Run the calculator file using Node.js or your preferred environment.
+4. See the output in the console.
 
 ## Author
-- **Name** : Shaik Suhail
-- **Contact** : suhail.shaik@everest.engineering
+**Name** : Shaik Suhail
+**Contact** : suhail.shaik@everest.engineering
