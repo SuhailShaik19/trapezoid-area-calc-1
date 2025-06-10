@@ -1,9 +1,8 @@
-# Trapezoid Area Calculator - Addition & Division Features
+# Trapezoid Area Calculator - Addition, Division, and Multiplication Features
 
 ## Description
-This project calculates the area of a trapezoid using separate functions for addition and division.  
-The addition function adds two numbers (a and b), and the division function divides a given number by two.  
-Together, these functions help in computing the intermediate step `(a + b) / 2` of the trapezoid area formula.
+This project implements key arithmetic operations required to calculate the area of a trapezoid.  
+It includes functions for addition, division by two, and multiplication, which together compute the trapezoid area.
 
 ## Table of Contents
 - [Features](#features)
@@ -15,19 +14,20 @@ Together, these functions help in computing the intermediate step `(a + b) / 2` 
 ## Features
 - Add two numbers `a` and `b`.
 - Divide a number by 2.
-- Log the results of each operation to the console.
+- Multiply two numbers.
+- Calculate trapezoid area step-by-step using these operations.
 
 ## Tech Stack
-- JavaScript 
+- JavaScript
 
 ## Purpose
-This project is to demonstrate basic arithmetic operations in code as part of the trapezoid area calculation.  
+To demonstrate basic arithmetic functions that build up to calculating the area of a trapezoid, making the logic modular and clear.
 
 ## How to Use
 1. Clone the repository.
-2. Checkout to the respective branch (`feature/addition` or `feature/divisionByTwo`).
-3. Run the calculator file using Node.js or your preferred environment.
-4. See the output in the console.
+2. Checkout to branches for specific features (`feature/addition`, `feature/divisionByTwo`, `feature/multiplication`).
+3. Run the calculator file in your environment (Node.js or browser).
+4. Use the functions individually or combined to get the trapezoid area.
 
 ## Author
 **Name** : Shaik Suhail
